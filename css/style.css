@@ -1,0 +1,62 @@
+body {
+  background: #323232;
+  color: #fff; }
+
+.navbar {
+  background-color: #000;
+  border-bottom: 3px solid #b36bf7;
+  opacity: 0.7; }
+
+#homeSection {
+  background-image: url("../img/home2.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 780px;
+  position: relative; }
+  #homeSection .dark-overlay {
+    background: rgba(4, 5, 14, 0.5);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 750px;
+    position: absolute;
+    padding-top: 180px; }
+  #homeSection .fa {
+    font-size: 30px;
+    background: #fff;
+    color: #b36bf7;
+    border-radius: 4px;
+    padding: 5px; }
+  #homeSection .form-opacity {
+    opacity: 0.9; }
+
+#exploreConnect .fa {
+  background: #000;
+  color: #fff;
+  font-size: 30px;
+  padding: 5px;
+  border-radius: 4px; }
+
+#createPossion .fa {
+  font-size: 30px;
+  color: #b36bf7;
+  background: #fff;
+  padding: 5px;
+  border-radius: 4px; }
+
+#shareWhat .fa {
+  font-size: 30px;
+  background: #000;
+  color: #fff;
+  padding: 5px;
+  border-radius: 4px; }
+
+#footerSection {
+  background: #000; }
+
+@media (max-width: 768px) {
+  #homeSection {
+    min-height: 650px; }
+    #homeSection .dark-overlay {
+      min-height: 650px; } }
